@@ -1,0 +1,15 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/mnt/c/Users/Zelgius/Linux/Code/Zelgius/streams/django-getting-started/django/bin/python3",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--disable=R,C"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "77"
+    ]
+}
